@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <!--Titulo Principal-->
+    <title>Clínica Tafarel</title>
+    <!--Conectar com style.css para cores,tamanho etc.-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <!--No body o h1 é o titulo principal, seguido por subtopicos h2, e subtopico h3-->
+        <header>
+            <h1>Clinica Tafarel, cuidando da sua saúde</h1>
+                <nav>
+                    <a href="#inicio">Início</a>
+                    <a href="#servicos">Serviços</a>
+                    <a href="#Equipe">Equipe</a>
+                    <a href="#contato">Contato</a>
+                </nav>
+        </header>
+    <div class="bemvindo">
+    <h2 id="inicio">Seja bem-vindo à Clínica Tafarel</h2>
+    <p>Cuidados de saúde com qualidade, atenção e dedicação para você e sua família.</p>
+    <a href="#servicos" class="botao-servicos">Conheça nossos serviços</a>
+    </div>
+    
+    <h2 id="servicos">Nossos serviços:</h2>
+
+<div class="serviços">
+<div class="card">
+<h3>Consultas Médicas</h3>
+    <!--so para deixar claro que as imagens foram pegas do Pexels, para garantir uso livre e sem problemas com direitos autorais-->
+        <img src="imagensclinica/pexels-tima-miroshnichenko-5452242.jpg" alt="Equipe Médica">
+    <p>Atendimento médico para avaliação da sua saúde!</p>
+</div>
+
+<div class="card">
+<h3>Exames Laboratoriais</h3>
+        <img src="imagensclinica/pexels-konrads-photo-32115951.jpg" alt="Exames">
+    <p>Verifique seus exames ou faça novos na clinica</p>
+</div>
+
+<div class="card">
+<h3>Cirurgias</h3>
+        <img src="imagensclinica/pexels-jonathanborba-28736007.jpg" alt="Cirurgias">
+    <p>Marque cirurgias de acordo com a sua necessidade, ou veja se uma cirurgia sua foi confirmada</p>
+
+</div>
+
+<div class="card">
+<h3>Remédios</h3>
+        <img src="imagensclinica/pexels-pixabay-159211.jpg" alt="Medicamentos/Remédios">
+    <p>Veja se você esta avaliado para receber nossos remédios gratuitos</p>
+</div>
+
+</div>
+    <div class="nossa_equipe">
+        <h2 id="Equipe">Nossa Equipe</h2>
+    </div>
+
+<div class="Medicos">
+    <div class="card">
+    <img src="imagensclinica/pexels-tima-miroshnichenko-5452268.jpg" alt="Doutor João">
+        <h3> Doutor João</h3>
+            <p>Médico Clínico Geral</p>
+    </div>
+    <div class="card">
+    <img src="imagensclinica/pexels-tima-miroshnichenko-5452267.jpg" alt="Doutora Celia">
+        <h3>Doutora Célia</h3>
+            <p>Cirurgiã</p>
+    </div> 
+    <div class="card">       
+    <img src="imagensclinica/pexels-usman-yousaf-708951-6762870.jpg" alt="Doutor Julio">
+        <h3>Doutor Júlio</h3>
+            <p>Ortopedista</p>
+    </div>
+</div>
+
+<div class="contato">
+<h2 id="contato">Entre em contato</h2>
+    <form>
+        <div>
+        <label for="nome">Nome:</label>
+            <input type="text" id="nome">
+        </div>
+        <div>
+        <label for="idade">Idade:</label> <!--Não era necessario mas coloquei para melhorar o site-->    
+            <input type="number" id="idade">
+        </div>
+        <div>    
+        <label for="email1">E-mail:</label>
+            <input type="email" id="email1">
+        </div>
+        <div>    
+        <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade">
+        </div>
+        <div>
+        <label for="estado">Estado:</label>
+            <input type="text"  id="estado">    
+        </div>
+    <button type="button">Enviar</button>
+    </form>
+</div>
+</body>
+</html>
+
+
+<!--0 → não desloca para os lados.
+4px → desloca a sombra 4px para baixo.
+8px → deixa a sombra mais espalhada.
+rgba(...) → deixa a sombra parcialmente transparente.-->
